@@ -1,23 +1,9 @@
-const codeForFake = `
-(function() {
-    let titleList = [
-        { "title": "Google", "icon": "./icons/icon-32.png" },
-        { "title": "Wikipedia, the free encyclopedia", "icon": "./icons/icon-32.png" }
-    ]
-    
-    var randNum = Math.floor(Math.random() * titleList.length);
-    document.title = titleList[randNum].title;
-}());
-`;
-
 function onExecuted(result) {
-    let errorP = document.getElementById("error")
-    errorP.innerHTML = result;
+    console.log(result);
 }
 
 function onError(error) {
-    let errorP = document.getElementById("error");
-    errorP.innerHTML = error;
+    console.log(error);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -51,8 +37,7 @@ document.addEventListener('click', (e) => {
     }
 
     function reportError(error) {
-        var errorP = document.getElementById("error");
-        errorP.innerHTML = error;
+        console.log(error);
     }
 
     if (e.target.id === "checkbox") {

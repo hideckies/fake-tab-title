@@ -1,7 +1,7 @@
 {
     "name": "Fake Tab Title",
     "manifest_version": 2,
-    "description": "Changes the title of tabs",
+    "description": "Changes all tab titles & icons randomly.",
     "version": "0.1.0",
     "homepage_url": "https://hdks.org",
     "icons": {
