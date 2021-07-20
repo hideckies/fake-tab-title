@@ -1,3 +1,3 @@
 # Fake Tab Title
 
-Firefox extension.
+Browser extension for Firefox.(Under development for Google Chrome.)
