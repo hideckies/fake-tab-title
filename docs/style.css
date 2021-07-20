@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
     --color-black: #333;
     --color-grey: #999;
@@ -16,4 +18,31 @@ html,body {
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#content {
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+}
+
+#links {
+    margin: 40px;
+}
+#links a img {
+    filter: drop-shadow(0 0 0.4em #999);
+}
+#links a img:hover {
+    filter: drop-shadow(0 0 0.4em #666);
 }
